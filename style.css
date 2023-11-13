@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.container img{
+    width: 20%;
+    border-radius: 3000px;
+   position: relative;
+   left: 50em;
+   bottom: 15em;
+   border: 3px solid rgb(0, 0, 0);
+   box-shadow: 2px 2px 2px 2px black;
+
+}
+#icon{
+    position: relative;
+    bottom: 250px;
+    font-size: 30px;
+    margin: 10px;
+}
+.container h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(90px);
+    color: #080808;
+}
+.title {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.container h1,p{
+   margin:80px;
+}
+
+.container button{
+    position: relative;
+    left: 80px;
+    color: #000000;
+    bottom: 300px;
+    padding: 10px 40px;
+    background-color: red;
+    box-shadow: .5em .5em rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.container button:hover{
+    box-shadow: none;
+    
+}
+.exp h1{
+    font-family: 'Poppins', sans-serif; 
+    color: #000000; border: 2px solid #000000;
+    width: 300px;
+}
+.container{
+    background-color: transparent;
+    height: 500px;
+    width: 1300px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 10px 0px black;
+}
+.ecp h2{
+    font-family: 'Poppins', sans-serif; 
+    color: #000000;
+    margin-left: 70px; 
+}
+.ecp h3{
+    font-family: 'Poppins', sans-serif; 
+    color: orangered;
+    margin-left: 70px; 
+}
+.ecp{
+    background-color: transparent;
+    width: 400px;
+    height: 500px;
+    margin-left: 500px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(255, 119, 0), rgb(0, 255, 162));
+    border-image-slice: 1;
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px 0px black;
+}
+.ecp p,h2,h3{
+    transform: translateY(50px);
+}
+@media screen and (max-width:385px){
+    /* body{
+        background-image: url('dribbble.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+}
+@media screen and (max-width:385px) {
+    .container h1{
+        position: relative;
+        margin: 20px;
+        top: 180px;
+        font-size: 20px;
+        transform: translateY(0px);
+
+    }
+    .container p{
+        position: relative;
+        margin: 20px;
+        top: 180px;
+        font-size: 10px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .container img{
+        width: 40%;
+       position: absolute;
+       top: 60px;
+       left: 110px;
+       box-shadow: none;
+    
+    }
+    .container button{
+        position: relative;
+        left: 15px;
+        bottom: 0px;
+        top: 170px;
+        padding: 2px 10px;
+        background-color: red;
+        box-shadow: .3em .3em rgb(0, 0, 0);
+        font-size: 16px;
+        border-radius: 4px;
+
+    }
+    .container button:hover{
+        margin-left: 5px;
+    }
+    .container{
+        background-color: transparent;
+        width: 290px;
+        margin: 50px;
+
+    }
+    #icon{
+        position: relative;
+        bottom:0px;
+        top: 180px;
+        font-size: 20px;
+        margin: 5px;
+    }
+    .exp h1{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif; 
+        color: #000000; border: 2px solid #000000;
+        width: 200px;
+    }
+    .ecp{
+        background-color: transparent;
+        width:280px;
+        height: 500px;
+        margin-left: 30px;
+
+    }
+    .ecp h2{
+margin-left: 8px;
+    }
+    .ecp h3{
+        margin-left: 8px;
+            }
+}
+.ecp p{
+    margin-left: 25px;
+        }
+@media screen and (max-width:320px) {
+    .container{
+        margin: 14px;
+    }
+
+    .container img{
+        width: 40%;
+       position: absolute;
+       top: 50px;
+       left: 90px;
+       box-shadow: none;
+    
+    }
+    .ecp{
+        background-color: transparent;
+        width:280px;
+        height: 500px;
+        margin-left: 18px;
+
+    }
+        }
